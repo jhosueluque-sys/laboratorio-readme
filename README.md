@@ -1,30 +1,30 @@
-# Laboratorio README
+# Biblioteca Virtual
 
-Proyecto de práctica para aprender Markdown avanzado en GitHub.
+Aplicación web para gestionar libros de una biblioteca de forma sencilla.
+
+El proyecto permite registrar libros, consultar información y controlar su disponibilidad.
+
+![Estado](https://img.shields.io/badge/estado-en%20desarrollo-yellow)
+
+## Tabla de contenidos
+
+- [Descripción](#descripción)
+- [Instalación](#instalación)
+- [Uso](#uso)
+- [Estado de funcionalidades](#estado-de-funcionalidades)
+- [Arquitectura](#arquitectura)
+- [Pendientes](#pendientes)
+- [Contribuidores](#contribuidores)
 
 ## Descripción
 
-Este repositorio documenta paso a paso mi aprendizaje de Markdown: tablas, listas de tareas, badges y diagramas.
+Biblioteca Virtual es un proyecto diseñado para facilitar la gestión de libros.
 
-## Estado de funcionalidades
+La aplicación permite organizar los registros de los libros y consultar rápidamente si se encuentran disponibles.
 
-| Función | Estado      |
-|---------|-------------|
-| Login   | Listo       |
-| Reportes| En progreso |
+## Instalación
 
-## Pendientes
-
--	[x] Diseño de la base de datos
--	[ ] Pruebas unitarias
-
-![Estado](https://img.shields.io/badge/build-passing-brightgreen)
-
-## Arquitectura
-
-```mermaid 
-graph LR
-    A[Usuario] --> B[Frontend]
-    B	--> C[API]
-    C	--> D[(Base de datos)]
-```
+```bash
+git clone https://github.com/jhosueluque-sys/laboratorio-readme.git
+cd laboratorio-readme
+npm install
